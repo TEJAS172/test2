@@ -1,0 +1,29 @@
+@media(max-width:500px){
+    .container{
+        padding: 20px;
+    }
+    .item{
+        width: 340px;
+    }
+    .banner{
+        height: 580vh;
+        background-color: rgba(0,0,0,0.9);
+    }
+ 
+   }
+   @media(min-width:501px) and (max-width:1200px){
+    .container{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 20px;
+    }
+    .item{
+        width: 310px;
+    }
+    .banner{
+        height: 290vh;
+        background-color: rgba(0,0,0,0.9);
+    }
+  
+    
+   }

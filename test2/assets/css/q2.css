@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.banner{
+    background: url(../image/f4.png)no-repeat center;
+    background-size: 100%;
+    height: 150vh;
+    background-color: rgba(0,0,0,0.9);
+}
+header{
+    background: rgba(232, 235, 238, 0.605);
+    padding: 10px;
+    margin-top: 10px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+header nav ul li h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    transition: 1s;
+}
+
+header nav ul{
+    list-style-type: none;
+    float: right;
+}
+header nav ul li{
+   padding: 10px 50px 0px 40px;
+    display: inline-block;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    font-size: 24px;
+    transition: 1s;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color:teal;
+    padding: 34px;
+    margin: 20px;
+    box-shadow:3px 3px 6px rgba(0,0,0,0.8);
+    transition: 1s; 
+}
+header:hover{
+    background-color:rgb(0,0,0,.3);
+    border: 3px solid teal;
+    transform: scaleX(0.5,0.5);
+}
+header nav h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    transition: 1s;
+}
+header nav h1:hover{
+    color: brown;
+    transform: scale(0.9,0.9);
+}
+header nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+select{
+    padding: 7px 15px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    border: none;
+    transition: 1s;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select:hover{
+    color: red;
+}

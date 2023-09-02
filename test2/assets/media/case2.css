@@ -1,0 +1,37 @@
+@media(max-width:500px){
+ .container{
+    padding: 20px;
+ }
+ .item{
+    height: 200px;
+    width: 270px;
+    padding: 5px 20px;
+}
+.item h1{
+    font-size: 24px;
+}
+.item p{
+    font-size: 13px;
+}
+}
+@media(min-width:501px) and (max-width:1200px){
+  .container{
+   gap: 15px;
+    
+  }
+  .item{
+    height: 200px;
+    width: 270px;
+    padding: 5px 20px;
+}
+.item h1{
+    font-size: 24px;
+}
+.item p{
+    font-size: 13px;
+}
+.banner{
+    height: 150vh;
+}
+ 
+}
